@@ -1,99 +1,62 @@
 {
   "nav": {
-    "home": "首页",
-    "features": "功能",
+    "product": "产品",
+    "features": "特点",
     "about": "关于",
     "contact": "联系"
   },
   "hero": {
-    "badge": "新一代AI计算机视觉",
-    "title": "智能视觉识别平台",
-    "subtitle": "以前沿AI视觉技术赋能企业。实时目标检测、人脸识别、智能视频分析 — 统一平台一站式解决。",
-    "cta": "立即开始",
-    "demo": "查看演示"
+    "title": "边缘AI视觉雷达",
+    "subtitle": "将普通计算机变成智能视觉雷达系统。边缘算法在您现有的硬件上直接处理视频流——无需昂贵GPU，不依赖云端。",
+    "cta": "了解更多",
+    "stat1": "边缘计算",
+    "stat2": "无需GPU",
+    "stat3": "实时预警"
   },
-  "features": {
-    "title": "强大功能",
-    "subtitle": "高级计算机视觉应用所需的一切",
-    "realTime": {
-      "title": "实时检测",
-      "desc": "使用优化的推理引擎以亚毫秒延迟处理视频流。"
-    },
-    "multiCamera": {
-      "title": "多摄像头支持",
-      "desc": "通过单一仪表板同时连接和管理数百个摄像头。"
-    },
-    "aiAnalytics": {
-      "title": "AI分析",
-      "desc": "利用先进的机器学习模型从视觉数据中生成可操作的洞察。"
-    },
-    "privacy": {
-      "title": "隐私优先",
-      "desc": "边缘计算架构将敏感数据保留在本地。完全符合GDPR规范。"
-    },
-    "api": {
-      "title": "RESTful API",
-      "desc": "通过我们全面的API与您现有系统无缝集成。"
-    },
-    "cloud": {
-      "title": "云端与本地",
-      "desc": "灵活的部署选项 — 可在云端、本地或混合模式下运行。"
-    }
+  "intro": {
+    "title": "什么是视觉雷达？",
+    "p1": "AI-VisionRada 是深圳诺澜一路科技有限公司开发的边缘计算视觉智能平台。它将普通计算机转变为强大的视觉雷达系统，实时监控、分析和响应事件。",
+    "p2": "与需要昂贵硬件和云订阅的英伟达大模型方案不同，我们的软件在标准x86机器上运行。边缘算法在本地处理视频流，消除带宽成本和延迟，同时提供企业级的检测和预警能力。"
   },
-  "tech": {
-    "title": "技术栈",
-    "subtitle": "采用现代化、经过实战检验的技术构建",
-    "backend": "后端",
-    "frontend": "前端",
-    "aiEngine": "AI引擎",
-    "deployment": "部署"
+  "how": {
+    "title": "工作原理",
+    "step1Title": "接入",
+    "step1Desc": "通过交换机将现有摄像头或视频流接入任何标准计算机。无需专用硬件。",
+    "step2Title": "识别",
+    "step2Desc": "边缘AI算法实时分析每一帧画面。目标检测、运动追踪、入侵区域——全部在本地完成。",
+    "step3Title": "预警",
+    "step3Desc": "为特定事件定义自定义预警规则。当事件发生时，系统即时触发通知、录像或自动响应。"
+  },
+  "compare": {
+    "title": "边缘计算 vs 云端AI",
+    "subtitle": "为什么视频监控领域边缘算法优于大模型云方案",
+    "edge": "AI-VisionRada（边缘）",
+    "cloud": "英伟达 / 云端方案",
+    "hardware": "标准x86计算机",
+    "hardwareCloud": "昂贵GPU服务器",
+    "latency": "< 10ms 本地处理",
+    "latencyCloud": "200-500ms + 网络延迟",
+    "cost": "一次性授权",
+    "costCloud": "月度云费用 + GPU租金",
+    "privacy": "数据不离开本地",
+    "privacyCloud": "视频上传至云端",
+    "scale": "不限摄像头数量",
+    "scaleCloud": "按流计费"
   },
   "about": {
     "title": "关于我们",
-    "subtitle": "深圳诺澜一路科技有限公司",
-    "description": "我们是一家总部位于中国深圳的科技公司，致力于推动人工智能和计算机视觉领域的发展。我们的使命是让先进的AI视觉技术对各种规模的企业都变得可及和实用。",
-    "founded": "成立于深圳",
-    "focus": "AI与计算机视觉",
-    "team": "专业工程团队",
-    "global": "全球解决方案"
+    "company": "深圳诺澜一路科技有限公司",
+    "companyZh": "深圳诺澜一路科技有限公司",
+    "p1": "我们位于中国的硬件与AI之都——深圳，专注于边缘计算计算机视觉解决方案。我们的使命是让AI驱动的视频智能大众化——让各种规模的企业都能负担得起并实际使用。",
+    "p2": "我们相信强大的视觉AI不需要百万级别的GPU集群。我们的边缘算法在标准硬件上提供同样的检测质量，成本却只有几分之一。"
   },
   "contact": {
     "title": "联系我们",
-    "subtitle": "有问题？我们期待您的来信。",
-    "email": "邮箱",
-    "emailValue": "2212085042@qq.com",
-    "address": "地址",
-    "addressValue": "中国广东省深圳市",
-    "company": "公司",
-    "companyValue": "深圳诺澜一路科技有限公司",
-    "namePlaceholder": "您的姓名",
-    "emailPlaceholder": "您的邮箱",
-    "messagePlaceholder": "您的留言",
-    "send": "发送消息"
+    "email": "2212085042@qq.com",
+    "location": "中国广东省深圳市",
+    "company": "深圳诺澜一路科技有限公司"
   },
   "footer": {
-    "rights": "版权所有。",
-    "privacy": "隐私政策",
-    "terms": "服务条款"
-  },
-  "downloads": {
-    "title": "下载中心",
-    "subtitle": "获取适用于您平台的 AI-VisionRada 最新版本",
-    "windows": "Windows",
-    "macos": "macOS",
-    "linux": "Linux",
-    "docker": "Docker",
-    "source": "源代码",
-    "docs": "文档",
-    "version": "版本",
-    "releaseDate": "发布日期",
-    "downloadBtn": "下载",
-    "allReleases": "查看所有版本",
-    "requirements": "系统要求",
-    "winReq": "Windows 10/11 x64, 8GB 内存",
-    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB 内存",
-    "linuxReq": "Ubuntu 20.04+, 8GB 内存, 推荐NVIDIA GPU",
-    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
-    "license": "非商业用途免费。商业使用请联系我们获取企业授权。"
+    "rights": "版权所有。"
   }
 }

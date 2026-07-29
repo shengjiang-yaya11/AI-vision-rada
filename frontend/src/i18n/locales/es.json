@@ -1,99 +1,62 @@
 {
   "nav": {
-    "home": "Inicio",
-    "features": "Funciones",
+    "product": "Producto",
+    "features": "Características",
     "about": "Acerca de",
     "contact": "Contacto"
   },
   "hero": {
-    "badge": "Visión Artificial IA de Próxima Generación",
-    "title": "Plataforma Inteligente de Reconocimiento Visual",
-    "subtitle": "Potencie su negocio con tecnología de visión IA de vanguardia. Detección de objetos en tiempo real, reconocimiento facial y análisis de video inteligente — todo en una plataforma unificada.",
-    "cta": "Comenzar",
-    "demo": "Ver Demo"
+    "title": "Radar Visual IA en el Borde",
+    "subtitle": "Transforme cualquier computadora estándar en un sistema de radar visual inteligente. Los algoritmos de borde procesan flujos de video directamente en su hardware existente — sin GPUs costosas, sin dependencia de la nube.",
+    "cta": "Más información",
+    "stat1": "Edge Computing",
+    "stat2": "Sin GPU necesaria",
+    "stat3": "Alertas en tiempo real"
   },
-  "features": {
-    "title": "Funciones Potentes",
-    "subtitle": "Todo lo que necesita para aplicaciones avanzadas de visión artificial",
-    "realTime": {
-      "title": "Detección en Tiempo Real",
-      "desc": "Procese transmisiones de video con latencia inferior a milisegundos usando nuestro motor de inferencia optimizado."
-    },
-    "multiCamera": {
-      "title": "Soporte Multi-Cámara",
-      "desc": "Conecte y gestione cientos de cámaras simultáneamente desde un solo panel de control."
-    },
-    "aiAnalytics": {
-      "title": "Análisis IA",
-      "desc": "Genere información procesable a partir de datos visuales con modelos avanzados de aprendizaje automático."
-    },
-    "privacy": {
-      "title": "Privacidad Primero",
-      "desc": "La arquitectura de computación en el borde mantiene los datos confidenciales en las instalaciones. Cumplimiento total del RGPD."
-    },
-    "api": {
-      "title": "API RESTful",
-      "desc": "Intégrese fácilmente con sus sistemas existentes a través de nuestra API integral."
-    },
-    "cloud": {
-      "title": "Nube y Local",
-      "desc": "Opciones de implementación flexibles — ejecute en la nube, en instalaciones locales o en modo híbrido."
-    }
+  "intro": {
+    "title": "¿Qué es el Radar Visual?",
+    "p1": "AI-VisionRada es una plataforma de inteligencia visual en edge computing desarrollada por Shenzhen Nuolan Yilu Technology. Convierte computadoras comunes en potentes sistemas de radar visual que monitorean, analizan y responden a eventos en tiempo real.",
+    "p2": "A diferencia de las soluciones de grandes modelos basados en NVIDIA que requieren hardware costoso y suscripciones en la nube, nuestro software funciona en máquinas x86 estándar. Los algoritmos de borde procesan los flujos de video localmente, eliminando costos de ancho de banda y latencia, mientras ofrecen detección y alertas de nivel empresarial."
   },
-  "tech": {
-    "title": "Stack Tecnológico",
-    "subtitle": "Construido con tecnologías modernas y probadas en batalla",
-    "backend": "Backend",
-    "frontend": "Frontend",
-    "aiEngine": "Motor IA",
-    "deployment": "Despliegue"
+  "how": {
+    "title": "Cómo funciona",
+    "step1Title": "Conectar",
+    "step1Desc": "Conecte sus cámaras o flujos de video existentes a cualquier computadora estándar a través de un switch de red. No se necesita hardware especializado.",
+    "step2Title": "Detectar",
+    "step2Desc": "Los algoritmos de IA en el borde analizan cada fotograma en tiempo real. Detección de objetos, seguimiento de movimiento, zonas de intrusión — todo procesado localmente.",
+    "step3Title": "Alertar",
+    "step3Desc": "Defina reglas de alerta personalizadas para eventos específicos. Cuando algo ocurre, el sistema activa notificaciones instantáneas, grabaciones o respuestas automatizadas."
+  },
+  "compare": {
+    "title": "Edge Computing vs IA en la Nube",
+    "subtitle": "Por qué los algoritmos de borde superan a las soluciones de nube con grandes modelos para videovigilancia",
+    "edge": "AI-VisionRada (Edge)",
+    "cloud": "NVIDIA / Soluciones en la Nube",
+    "hardware": "Computadora x86 estándar",
+    "hardwareCloud": "Servidor GPU costoso",
+    "latency": "< 10ms Local",
+    "latencyCloud": "200-500ms + Red",
+    "cost": "Licencia única",
+    "costCloud": "Cuotas mensuales de nube + GPU",
+    "privacy": "Los datos nunca salen de las instalaciones",
+    "privacyCloud": "Video subido a la nube",
+    "scale": "Cámaras ilimitadas",
+    "scaleCloud": "Facturación por flujo"
   },
   "about": {
-    "title": "Sobre Nosotros",
-    "subtitle": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "description": "Somos una empresa tecnológica con sede en Shenzhen, China, dedicada al avance de la inteligencia artificial y la visión artificial. Nuestra misión es hacer que la tecnología de visión IA sofisticada sea accesible y práctica para empresas de todos los tamaños.",
-    "founded": "Fundada en Shenzhen",
-    "focus": "IA y Visión Artificial",
-    "team": "Equipo de Ingeniería Experto",
-    "global": "Soluciones Globales"
+    "title": "Acerca de",
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "companyZh": "深圳诺澜一路科技有限公司",
+    "p1": "Con sede en Shenzhen, la capital del hardware y la IA de China, nos especializamos en soluciones de visión artificial en edge computing. Nuestra misión es democratizar la inteligencia de video impulsada por IA, haciéndola asequible y práctica para empresas de todos los tamaños.",
+    "p2": "Creemos que una IA visual potente no debería requerir clústeres de GPU de millones de dólares. Nuestros algoritmos de borde ofrecen la misma calidad de detección en hardware estándar, por una fracción del costo."
   },
   "contact": {
-    "title": "Contáctenos",
-    "subtitle": "¿Tiene preguntas? Nos encantaría saber de usted.",
-    "email": "Correo Electrónico",
-    "emailValue": "2212085042@qq.com",
-    "address": "Dirección",
-    "addressValue": "Shenzhen, Guangdong, China",
-    "company": "Empresa",
-    "companyValue": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "namePlaceholder": "Su Nombre",
-    "emailPlaceholder": "Su Correo",
-    "messagePlaceholder": "Su Mensaje",
-    "send": "Enviar Mensaje"
+    "title": "Contacto",
+    "email": "2212085042@qq.com",
+    "location": "Shenzhen, Guangdong, China",
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd."
   },
   "footer": {
-    "rights": "Todos los derechos reservados.",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
-  },
-  "downloads": {
-    "title": "Descargas",
-    "subtitle": "Obtenga la última versión de AI-VisionRada para su plataforma",
-    "windows": "Windows",
-    "macos": "macOS",
-    "linux": "Linux",
-    "docker": "Docker",
-    "source": "Código Fuente",
-    "docs": "Documentación",
-    "version": "Versión",
-    "releaseDate": "Fecha de lanzamiento",
-    "downloadBtn": "Descargar",
-    "allReleases": "Ver todas las versiones",
-    "requirements": "Requisitos del sistema",
-    "winReq": "Windows 10/11 x64, 8GB RAM",
-    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB RAM",
-    "linuxReq": "Ubuntu 20.04+, 8GB RAM, GPU NVIDIA recomendada",
-    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
-    "license": "Gratis para uso no comercial. Contáctenos para licencias empresariales."
+    "rights": "Todos los derechos reservados."
   }
 }

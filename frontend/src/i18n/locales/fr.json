@@ -1,99 +1,62 @@
 {
   "nav": {
-    "home": "Accueil",
+    "product": "Produit",
     "features": "Fonctionnalités",
     "about": "À propos",
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Vision par Ordinateur IA de Nouvelle Génération",
-    "title": "Plateforme Intelligente de Reconnaissance Visuelle",
-    "subtitle": "Donnez du pouvoir à votre entreprise avec une technologie de vision IA de pointe. Détection d'objets en temps réel, reconnaissance faciale et analyse vidéo intelligente — le tout sur une plateforme unifiée.",
-    "cta": "Commencer",
-    "demo": "Voir la Démo"
+    "title": "Radar Visuel IA en Périphérie",
+    "subtitle": "Transformez n'importe quel ordinateur standard en un système de radar visuel intelligent. Les algorithmes de périphérie traitent les flux vidéo directement sur votre matériel existant — sans GPU coûteux, sans dépendance au cloud.",
+    "cta": "En savoir plus",
+    "stat1": "Edge Computing",
+    "stat2": "Aucun GPU requis",
+    "stat3": "Alertes en temps réel"
   },
-  "features": {
-    "title": "Fonctionnalités Puissantes",
-    "subtitle": "Tout ce dont vous avez besoin pour des applications avancées de vision par ordinateur",
-    "realTime": {
-      "title": "Détection en Temps Réel",
-      "desc": "Traitez des flux vidéo avec une latence inférieure à la milliseconde grâce à notre moteur d'inférence optimisé."
-    },
-    "multiCamera": {
-      "title": "Support Multi-Caméras",
-      "desc": "Connectez et gérez des centaines de caméras simultanément depuis un seul tableau de bord."
-    },
-    "aiAnalytics": {
-      "title": "Analyse IA",
-      "desc": "Générez des informations exploitables à partir de données visuelles avec des modèles d'apprentissage automatique avancés."
-    },
-    "privacy": {
-      "title": "Confidentialité Avant Tout",
-      "desc": "L'architecture de calcul en périphérie conserve les données sensibles sur site. Conformité totale au RGPD."
-    },
-    "api": {
-      "title": "API RESTful",
-      "desc": "Intégrez-vous facilement à vos systèmes existants via notre API complète."
-    },
-    "cloud": {
-      "title": "Cloud & Sur Site",
-      "desc": "Options de déploiement flexibles — exécutez dans le cloud, sur site ou en mode hybride."
-    }
+  "intro": {
+    "title": "Qu'est-ce que le Radar Visuel ?",
+    "p1": "AI-VisionRada est une plateforme d'intelligence visuelle en edge computing développée par Shenzhen Nuolan Yilu Technology. Elle transforme des ordinateurs ordinaires en puissants systèmes de radar visuel qui surveillent, analysent et répondent aux événements en temps réel.",
+    "p2": "Contrairement aux solutions de grands modèles basés sur NVIDIA nécessitant du matériel coûteux et des abonnements cloud, notre logiciel fonctionne sur des machines x86 standard. Les algorithmes de périphérie traitent les flux vidéo localement, éliminant les coûts de bande passante et la latence, tout en offrant une détection et des alertes de niveau entreprise."
   },
-  "tech": {
-    "title": "Stack Technologique",
-    "subtitle": "Construit avec des technologies modernes et éprouvées",
-    "backend": "Backend",
-    "frontend": "Frontend",
-    "aiEngine": "Moteur IA",
-    "deployment": "Déploiement"
+  "how": {
+    "title": "Comment ça marche",
+    "step1Title": "Connecter",
+    "step1Desc": "Branchez vos caméras ou flux vidéo existants sur n'importe quel ordinateur standard via un commutateur réseau. Aucun matériel spécialisé requis.",
+    "step2Title": "Détecter",
+    "step2Desc": "Les algorithmes d'IA en périphérie analysent chaque image en temps réel. Détection d'objets, suivi de mouvement, zones d'intrusion — tout est traité localement.",
+    "step3Title": "Alerter",
+    "step3Desc": "Définissez des règles d'alerte personnalisées pour des événements spécifiques. Lorsqu'un événement se produit, le système déclenche des notifications instantanées, des enregistrements ou des réponses automatisées."
+  },
+  "compare": {
+    "title": "Edge Computing vs IA Cloud",
+    "subtitle": "Pourquoi les algorithmes de périphérie surpassent les solutions cloud à grands modèles pour la vidéosurveillance",
+    "edge": "AI-VisionRada (Edge)",
+    "cloud": "NVIDIA / Solutions Cloud",
+    "hardware": "Ordinateur x86 standard",
+    "hardwareCloud": "Serveur GPU coûteux",
+    "latency": "< 10ms Local",
+    "latencyCloud": "200-500ms + Réseau",
+    "cost": "Licence unique",
+    "costCloud": "Frais cloud + GPU mensuels",
+    "privacy": "Données jamais hors site",
+    "privacyCloud": "Vidéo téléchargée sur le cloud",
+    "scale": "Caméras illimitées",
+    "scaleCloud": "Facturation par flux"
   },
   "about": {
-    "title": "À Propos",
-    "subtitle": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "description": "Nous sommes une entreprise technologique basée à Shenzhen, en Chine, dédiée à l'avancement de l'intelligence artificielle et de la vision par ordinateur. Notre mission est de rendre la technologie de vision IA sophistiquée accessible et pratique pour les entreprises de toutes tailles.",
-    "founded": "Fondée à Shenzhen",
-    "focus": "IA & Vision par Ordinateur",
-    "team": "Équipe d'Ingénieurs Experts",
-    "global": "Solutions Mondiales"
+    "title": "À propos",
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "companyZh": "深圳诺澜一路科技有限公司",
+    "p1": "Basés à Shenzhen, la capitale chinoise du matériel et de l'IA, nous sommes spécialisés dans les solutions de vision par ordinateur en edge computing. Notre mission est de démocratiser l'intelligence vidéo pilotée par l'IA — en la rendant abordable et pratique pour les entreprises de toute taille.",
+    "p2": "Nous croyons qu'une IA visuelle puissante ne devrait pas nécessiter des clusters GPU à plusieurs millions de dollars. Nos algorithmes de périphérie offrent la même qualité de détection sur du matériel standard, pour une fraction du coût."
   },
   "contact": {
-    "title": "Contactez-Nous",
-    "subtitle": "Des questions ? Nous serions ravis de vous entendre.",
-    "email": "Email",
-    "emailValue": "2212085042@qq.com",
-    "address": "Adresse",
-    "addressValue": "Shenzhen, Guangdong, Chine",
-    "company": "Entreprise",
-    "companyValue": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "namePlaceholder": "Votre Nom",
-    "emailPlaceholder": "Votre Email",
-    "messagePlaceholder": "Votre Message",
-    "send": "Envoyer"
+    "title": "Contact",
+    "email": "2212085042@qq.com",
+    "location": "Shenzhen, Guangdong, Chine",
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd."
   },
   "footer": {
-    "rights": "Tous droits réservés.",
-    "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation"
-  },
-  "downloads": {
-    "title": "Téléchargements",
-    "subtitle": "Obtenez la dernière version d'AI-VisionRada pour votre plateforme",
-    "windows": "Windows",
-    "macos": "macOS",
-    "linux": "Linux",
-    "docker": "Docker",
-    "source": "Code Source",
-    "docs": "Documentation",
-    "version": "Version",
-    "releaseDate": "Date de sortie",
-    "downloadBtn": "Télécharger",
-    "allReleases": "Voir toutes les versions",
-    "requirements": "Configuration requise",
-    "winReq": "Windows 10/11 x64, 8 Go RAM",
-    "macReq": "macOS 12+ (Apple Silicon/Intel), 8 Go RAM",
-    "linuxReq": "Ubuntu 20.04+, 8 Go RAM, GPU NVIDIA recommandé",
-    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
-    "license": "Gratuit pour usage non commercial. Contactez-nous pour une licence entreprise."
+    "rights": "Tous droits réservés."
   }
 }

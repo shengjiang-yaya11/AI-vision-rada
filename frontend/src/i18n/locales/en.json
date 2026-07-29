@@ -1,99 +1,62 @@
 {
   "nav": {
-    "home": "Home",
+    "product": "Product",
     "features": "Features",
     "about": "About",
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Next-Gen AI Computer Vision",
-    "title": "Intelligent Visual Recognition Platform",
-    "subtitle": "Empowering businesses with cutting-edge AI vision technology. Real-time object detection, facial recognition, and intelligent video analytics — all in one unified platform.",
-    "cta": "Get Started",
-    "demo": "View Demo"
+    "title": "Edge AI Visual Radar",
+    "subtitle": "Transform any standard computer into an intelligent visual radar system. Edge-based algorithms process video streams directly on your existing hardware — no expensive GPUs, no cloud dependency.",
+    "cta": "Learn More",
+    "stat1": "Edge Computing",
+    "stat2": "No GPU Required",
+    "stat3": "Real-Time Alerts"
   },
-  "features": {
-    "title": "Powerful Features",
-    "subtitle": "Everything you need for advanced computer vision applications",
-    "realTime": {
-      "title": "Real-Time Detection",
-      "desc": "Process video streams with sub-millisecond latency using our optimized inference engine."
-    },
-    "multiCamera": {
-      "title": "Multi-Camera Support",
-      "desc": "Connect and manage hundreds of cameras simultaneously from a single dashboard."
-    },
-    "aiAnalytics": {
-      "title": "AI Analytics",
-      "desc": "Generate actionable insights from visual data with advanced machine learning models."
-    },
-    "privacy": {
-      "title": "Privacy-First",
-      "desc": "Edge computing architecture keeps sensitive data on-premises. Full GDPR compliance."
-    },
-    "api": {
-      "title": "RESTful API",
-      "desc": "Seamlessly integrate with your existing systems through our comprehensive API."
-    },
-    "cloud": {
-      "title": "Cloud & On-Prem",
-      "desc": "Flexible deployment options — run in the cloud, on-premises, or in hybrid mode."
-    }
+  "intro": {
+    "title": "What Is Visual Radar?",
+    "p1": "AI-VisionRada is an edge-computing visual intelligence platform developed by Shenzhen Nuolan Yilu Technology. It turns ordinary computers into powerful visual radar systems that monitor, analyze, and respond to events in real time.",
+    "p2": "Unlike NVIDIA-based large model solutions that require expensive hardware and cloud subscriptions, our software runs on standard x86 machines. Edge algorithms process video streams locally, eliminating bandwidth costs and latency — while delivering enterprise-grade detection and alerting."
   },
-  "tech": {
-    "title": "Technology Stack",
-    "subtitle": "Built with modern, battle-tested technologies",
-    "backend": "Backend",
-    "frontend": "Frontend",
-    "aiEngine": "AI Engine",
-    "deployment": "Deployment"
+  "how": {
+    "title": "How It Works",
+    "step1Title": "Connect",
+    "step1Desc": "Plug your existing cameras or video streams into any standard computer via network switch. No specialized hardware needed.",
+    "step2Title": "Detect",
+    "step2Desc": "Edge AI algorithms analyze every frame in real time. Object detection, motion tracking, intrusion zones — all processed locally.",
+    "step3Title": "Alert",
+    "step3Desc": "Define custom alert rules for specific events. When something happens, the system triggers instant notifications, recordings, or automated responses."
+  },
+  "compare": {
+    "title": "Edge Computing vs. Cloud AI",
+    "subtitle": "Why edge algorithms beat large-model cloud solutions for video surveillance",
+    "edge": "AI-VisionRada (Edge)",
+    "cloud": "NVIDIA / Cloud Solutions",
+    "hardware": "Standard x86 Computer",
+    "hardwareCloud": "Expensive GPU Server",
+    "latency": "< 10ms Local",
+    "latencyCloud": "200-500ms + Network",
+    "cost": "One-Time License",
+    "costCloud": "Monthly Cloud + GPU Fees",
+    "privacy": "Data Never Leaves Premises",
+    "privacyCloud": "Video Uploaded to Cloud",
+    "scale": "Unlimited Cameras",
+    "scaleCloud": "Per-Stream Billing"
   },
   "about": {
     "title": "About Us",
-    "subtitle": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "description": "We are a technology company based in Shenzhen, China, dedicated to advancing the field of artificial intelligence and computer vision. Our mission is to make sophisticated AI vision technology accessible and practical for businesses of all sizes.",
-    "founded": "Founded in Shenzhen",
-    "focus": "AI & Computer Vision",
-    "team": "Expert Engineering Team",
-    "global": "Global Solutions"
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "companyZh": "深圳诺澜一路科技有限公司",
+    "p1": "Based in Shenzhen, China's hardware and AI capital, we specialize in edge-computing computer vision solutions. Our mission is to democratize AI-powered video intelligence — making it affordable and practical for businesses of every size.",
+    "p2": "We believe powerful visual AI should not require million-dollar GPU clusters. Our edge algorithms deliver the same detection quality on standard hardware, at a fraction of the cost."
   },
   "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Have questions? We'd love to hear from you.",
-    "email": "Email",
-    "emailValue": "2212085042@qq.com",
-    "address": "Address",
-    "addressValue": "Shenzhen, Guangdong, China",
-    "company": "Company",
-    "companyValue": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
-    "namePlaceholder": "Your Name",
-    "emailPlaceholder": "Your Email",
-    "messagePlaceholder": "Your Message",
-    "send": "Send Message"
+    "title": "Contact",
+    "email": "2212085042@qq.com",
+    "location": "Shenzhen, Guangdong, China",
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd."
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
-  },
-  "downloads": {
-    "title": "Downloads",
-    "subtitle": "Get the latest version of AI-VisionRada for your platform",
-    "windows": "Windows",
-    "macos": "macOS",
-    "linux": "Linux",
-    "docker": "Docker",
-    "source": "Source Code",
-    "docs": "Documentation",
-    "version": "Version",
-    "releaseDate": "Release Date",
-    "downloadBtn": "Download",
-    "allReleases": "View All Releases",
-    "requirements": "System Requirements",
-    "winReq": "Windows 10/11 x64, 8GB RAM",
-    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB RAM",
-    "linuxReq": "Ubuntu 20.04+, 8GB RAM, NVIDIA GPU recommended",
-    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
-    "license": "Free for non-commercial use. Contact us for enterprise licensing."
+    "rights": "All rights reserved."
   }
 }
