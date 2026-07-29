@@ -10,61 +10,39 @@ const icons = {
   cloud: Cloud,
 }
 
-const gradients = [
-  'from-blue-500/20 to-brand-500/20',
-  'from-purple-500/20 to-pink-500/20',
-  'from-emerald-500/20 to-accent-500/20',
-  'from-orange-500/20 to-red-500/20',
-  'from-brand-500/20 to-purple-500/20',
-  'from-accent-500/20 to-blue-500/20',
-]
-
 export default function Features() {
   const { t } = useTranslation()
   const features = ['realTime', 'multiCamera', 'aiAnalytics', 'privacy', 'api', 'cloud']
 
   return (
-    <section id="features" className="relative py-24 sm:py-32">
-      {/* Background accent */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-600/5 rounded-full blur-[120px]" />
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+    <section id="features" className="relative py-20 sm:py-28">
+      <div className="max-w-[1120px] mx-auto px-4 sm:px-6">
+        <div className="mb-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#182233] mb-3">
             {t('features.title')}
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <p className="text-[15px] text-[#5f6c82] max-w-2xl">
             {t('features.subtitle')}
           </p>
         </div>
 
-        {/* Feature Cards Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((key, i) => {
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {features.map((key) => {
             const Icon = icons[key]
             return (
               <div
                 key={key}
-                className="group relative p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-brand-500/20 transition-all duration-500 hover:bg-white/[0.05] backdrop-blur-sm"
+                className="group p-5 rounded-2xl bg-white border border-[#d6e0eb] hover:border-[#b42318]/30 transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_16px_rgba(16,24,40,0.04)] hover:shadow-[0_8px_24px_rgba(16,24,40,0.08)]"
               >
-                {/* Gradient blob on hover */}
-                <div
-                  className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${gradients[i]} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`}
-                />
-
-                <div className="relative space-y-4">
-                  <div className="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Icon size={24} className="text-brand-400" />
-                  </div>
-
-                  <h3 className="text-lg font-semibold text-white">
-                    {t(`features.${key}.title`)}
-                  </h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    {t(`features.${key}.desc`)}
-                  </p>
+                <div className="w-10 h-10 rounded-xl bg-[#fff1f0] border border-[#f0c4c0] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon size={20} className="text-[#b42318]" />
                 </div>
+                <h3 className="text-[17px] font-bold text-[#182233] mb-2">
+                  {t(`features.${key}.title`)}
+                </h3>
+                <p className="text-sm text-[#5f6c82] leading-relaxed">
+                  {t(`features.${key}.desc`)}
+                </p>
               </div>
             )
           })}

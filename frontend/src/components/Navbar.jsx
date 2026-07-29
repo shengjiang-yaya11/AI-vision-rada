@@ -20,18 +20,18 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#0a0a0f]/90 backdrop-blur-xl border-b border-white/5 shadow-lg shadow-black/20'
+          ? 'bg-white/95 backdrop-blur-md border-b border-[#d6e0eb] shadow-[0_4px_24px_rgba(16,24,40,0.06)]'
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1120px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-500 to-accent-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#b42318] to-[#d33b2d] flex items-center justify-center group-hover:scale-105 transition-transform shadow-md shadow-[#b42318]/20">
               <Cpu size={20} className="text-white" />
             </div>
-            <span className="text-lg font-bold text-white tracking-tight">
-              AI-Vision<span className="text-brand-400">Rada</span>
+            <span className="text-lg font-bold text-[#182233] tracking-tight">
+              AI-Vision<span className="text-[#b42318]">Rada</span>
             </span>
           </a>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
               <a
                 key={key}
                 href={`#${key}`}
-                className="px-4 py-2 rounded-lg text-sm text-gray-400 hover:text-white hover:bg-white/5 transition-all duration-200"
+                className="px-4 py-2 rounded-lg text-sm text-[#5f6c82] hover:text-[#182233] hover:bg-[#f8fafc] transition-all duration-200 font-medium"
               >
                 {key === 'downloads' ? t('downloads.title') : t(`nav.${key}`)}
               </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
             <LanguageSwitcher />
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden p-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
+              className="md:hidden p-2 rounded-lg text-[#5f6c82] hover:text-[#182233] hover:bg-[#f8fafc] transition-colors"
             >
               {mobileOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
@@ -59,14 +59,14 @@ export default function Navbar() {
         </div>
 
         {mobileOpen && (
-          <div className="md:hidden pb-4 border-t border-white/5 mt-0">
+          <div className="md:hidden pb-4 border-t border-[#d6e0eb] mt-0 bg-white">
             <div className="flex flex-col gap-1 pt-3">
               {navLinks.map((key) => (
                 <a
                   key={key}
                   href={`#${key}`}
                   onClick={() => setMobileOpen(false)}
-                  className="px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
+                  className="px-4 py-3 rounded-lg text-sm text-[#5f6c82] hover:text-[#182233] hover:bg-[#f8fafc] transition-colors font-medium"
                 >
                   {key === 'downloads' ? t('downloads.title') : t(`nav.${key}`)}
                 </a>
