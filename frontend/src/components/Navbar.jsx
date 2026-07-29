@@ -9,7 +9,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20)
+    const handleScroll = () => setScrolled(window.scrollY > 2)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -20,24 +20,14 @@ export default function Navbar() {
   }
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-white/90 backdrop-blur-xl border-b border-slate-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)]'
-          : 'bg-transparent'
-      }`}
-    >
-      <div className="max-w-6xl mx-auto px-8 h-16 flex items-center justify-between">
-        <a href="#" className="text-lg font-bold text-[#0f172a] tracking-tight">
-          AI‑Vision<span className="text-[#2563eb]">Rada</span>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors ${scrolled ? 'bg-white border-b border-[#e5e5e5]' : 'bg-transparent'}`}>
+      <div className="max-w-[1200px] mx-auto px-8 h-14 flex items-center justify-between">
+        <a href="#" className="text-sm font-medium tracking-tight text-[#111]">
+          AI‑Vision<span className="text-[#999]">Rada</span>
         </a>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-10">
           {navLinks.map((key) => (
-            <a
-              key={key}
-              href={`#${key}`}
-              className="text-[13px] text-slate-400 hover:text-[#0f172a] transition-colors font-medium uppercase tracking-wider hidden sm:inline"
-            >
+            <a key={key} href={`#${key}`} className="text-[13px] text-[#999] hover:text-[#111] transition-colors font-normal tracking-wide uppercase hidden sm:inline">
               {navLabel(key)}
             </a>
           ))}
