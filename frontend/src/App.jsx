@@ -8,9 +8,9 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-[#fafafa] text-[#1a1a2e]">
+    <div className="min-h-screen bg-white text-slate-800">
       <Navbar />
       <Hero />
       <Intro />
@@ -23,5 +23,3 @@ function App() {
     </div>
   )
 }
-
-export default App

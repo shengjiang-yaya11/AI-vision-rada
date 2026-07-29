@@ -1,28 +1,26 @@
 import { useTranslation } from 'react-i18next'
-
 export default function About() {
   const { t } = useTranslation()
   return (
-    <section id="about" className="py-20 sm:py-28 bg-[#fafaf9]">
-      <div className="max-w-[1200px] mx-auto px-8">
-        <p className="text-xs text-[#999] uppercase tracking-[0.2em] mb-8">{t('about.title')}</p>
-        <div className="grid sm:grid-cols-2 gap-16 max-w-[860px]">
+    <section id="about" className="py-16 sm:py-20 bg-slate-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-2xl font-bold text-slate-900 mb-6">{t('about.title')}</h2>
+        <div className="grid md:grid-cols-2 gap-10 max-w-4xl">
           <div>
-            <h3 className="text-xl font-medium text-[#111] mb-3">{t('about.company')}</h3>
-            <p className="text-xs text-[#999] uppercase tracking-wider mb-6">{t('about.companyZh')}</p>
-            <p className="text-[#666] leading-relaxed">{t('about.p1')}</p>
+            <h3 className="text-lg font-semibold text-slate-900 mb-1">{t('about.company')}</h3>
+            <p className="text-xs text-slate-400 uppercase tracking-wider mb-4">{t('about.companyZh')}</p>
+            <p className="text-slate-600 leading-relaxed">{t('about.p1')}</p>
           </div>
           <div>
-            <p className="text-[#666] leading-relaxed mb-10">{t('about.p2')}</p>
-            <hr className="mb-6" />
-            <div className="grid grid-cols-2 gap-8">
+            <p className="text-slate-600 leading-relaxed mb-8">{t('about.p2')}</p>
+            <div className="flex gap-8">
               <div>
-                <div className="text-xs text-[#999] uppercase tracking-wider mb-1">Location</div>
-                <div className="text-sm text-[#111]">{t('contact.location')}</div>
+                <div className="text-xs text-slate-400 uppercase tracking-wider mb-1">Location</div>
+                <div className="text-sm font-medium text-slate-900">{t('contact.location')}</div>
               </div>
               <div>
-                <div className="text-xs text-[#999] uppercase tracking-wider mb-1">Contact</div>
-                <div className="text-sm text-[#111]">16620839283</div>
+                <div className="text-xs text-slate-400 uppercase tracking-wider mb-1">Contact</div>
+                <div className="text-sm font-medium text-slate-900">16620839283</div>
               </div>
             </div>
           </div>

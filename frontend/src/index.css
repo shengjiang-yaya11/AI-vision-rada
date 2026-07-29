@@ -4,31 +4,15 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', sans-serif;
-  color: #1a1a1a;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  color: #1e293b;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.6;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
-::selection { background: rgba(0,0,0,0.08); }
-::-webkit-scrollbar { width: 0; }
-
-h1, h2, h3 {
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  color: #111;
-  line-height: 1.2;
-}
-
-p { color: #666; }
-
-a { color: #111; text-decoration: none; }
-
-hr {
-  border: none;
-  border-top: 1px solid #e5e5e5;
-  margin: 0;
-}
+h1, h2, h3 { color: #0f172a; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
