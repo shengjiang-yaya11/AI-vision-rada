@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Next-Gen AI Computer Vision",
+    "title": "Intelligent Visual Recognition Platform",
+    "subtitle": "Empowering businesses with cutting-edge AI vision technology. Real-time object detection, facial recognition, and intelligent video analytics — all in one unified platform.",
+    "cta": "Get Started",
+    "demo": "View Demo"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need for advanced computer vision applications",
+    "realTime": {
+      "title": "Real-Time Detection",
+      "desc": "Process video streams with sub-millisecond latency using our optimized inference engine."
+    },
+    "multiCamera": {
+      "title": "Multi-Camera Support",
+      "desc": "Connect and manage hundreds of cameras simultaneously from a single dashboard."
+    },
+    "aiAnalytics": {
+      "title": "AI Analytics",
+      "desc": "Generate actionable insights from visual data with advanced machine learning models."
+    },
+    "privacy": {
+      "title": "Privacy-First",
+      "desc": "Edge computing architecture keeps sensitive data on-premises. Full GDPR compliance."
+    },
+    "api": {
+      "title": "RESTful API",
+      "desc": "Seamlessly integrate with your existing systems through our comprehensive API."
+    },
+    "cloud": {
+      "title": "Cloud & On-Prem",
+      "desc": "Flexible deployment options — run in the cloud, on-premises, or in hybrid mode."
+    }
+  },
+  "tech": {
+    "title": "Technology Stack",
+    "subtitle": "Built with modern, battle-tested technologies",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "aiEngine": "AI Engine",
+    "deployment": "Deployment"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "description": "We are a technology company based in Shenzhen, China, dedicated to advancing the field of artificial intelligence and computer vision. Our mission is to make sophisticated AI vision technology accessible and practical for businesses of all sizes.",
+    "founded": "Founded in Shenzhen",
+    "focus": "AI & Computer Vision",
+    "team": "Expert Engineering Team",
+    "global": "Global Solutions"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "email": "Email",
+    "emailValue": "2212085042@qq.com",
+    "address": "Address",
+    "addressValue": "Shenzhen, Guangdong, China",
+    "company": "Company",
+    "companyValue": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

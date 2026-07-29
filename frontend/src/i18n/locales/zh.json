@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "hero": {
+    "badge": "新一代AI计算机视觉",
+    "title": "智能视觉识别平台",
+    "subtitle": "以前沿AI视觉技术赋能企业。实时目标检测、人脸识别、智能视频分析 — 统一平台一站式解决。",
+    "cta": "立即开始",
+    "demo": "查看演示"
+  },
+  "features": {
+    "title": "强大功能",
+    "subtitle": "高级计算机视觉应用所需的一切",
+    "realTime": {
+      "title": "实时检测",
+      "desc": "使用优化的推理引擎以亚毫秒延迟处理视频流。"
+    },
+    "multiCamera": {
+      "title": "多摄像头支持",
+      "desc": "通过单一仪表板同时连接和管理数百个摄像头。"
+    },
+    "aiAnalytics": {
+      "title": "AI分析",
+      "desc": "利用先进的机器学习模型从视觉数据中生成可操作的洞察。"
+    },
+    "privacy": {
+      "title": "隐私优先",
+      "desc": "边缘计算架构将敏感数据保留在本地。完全符合GDPR规范。"
+    },
+    "api": {
+      "title": "RESTful API",
+      "desc": "通过我们全面的API与您现有系统无缝集成。"
+    },
+    "cloud": {
+      "title": "云端与本地",
+      "desc": "灵活的部署选项 — 可在云端、本地或混合模式下运行。"
+    }
+  },
+  "tech": {
+    "title": "技术栈",
+    "subtitle": "采用现代化、经过实战检验的技术构建",
+    "backend": "后端",
+    "frontend": "前端",
+    "aiEngine": "AI引擎",
+    "deployment": "部署"
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "深圳诺澜一路科技有限公司",
+    "description": "我们是一家总部位于中国深圳的科技公司，致力于推动人工智能和计算机视觉领域的发展。我们的使命是让先进的AI视觉技术对各种规模的企业都变得可及和实用。",
+    "founded": "成立于深圳",
+    "focus": "AI与计算机视觉",
+    "team": "专业工程团队",
+    "global": "全球解决方案"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "有问题？我们期待您的来信。",
+    "email": "邮箱",
+    "emailValue": "2212085042@qq.com",
+    "address": "地址",
+    "addressValue": "中国广东省深圳市",
+    "company": "公司",
+    "companyValue": "深圳诺澜一路科技有限公司",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "您的邮箱",
+    "messagePlaceholder": "您的留言",
+    "send": "发送消息"
+  },
+  "footer": {
+    "rights": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Visión Artificial IA de Próxima Generación",
+    "title": "Plataforma Inteligente de Reconocimiento Visual",
+    "subtitle": "Potencie su negocio con tecnología de visión IA de vanguardia. Detección de objetos en tiempo real, reconocimiento facial y análisis de video inteligente — todo en una plataforma unificada.",
+    "cta": "Comenzar",
+    "demo": "Ver Demo"
+  },
+  "features": {
+    "title": "Funciones Potentes",
+    "subtitle": "Todo lo que necesita para aplicaciones avanzadas de visión artificial",
+    "realTime": {
+      "title": "Detección en Tiempo Real",
+      "desc": "Procese transmisiones de video con latencia inferior a milisegundos usando nuestro motor de inferencia optimizado."
+    },
+    "multiCamera": {
+      "title": "Soporte Multi-Cámara",
+      "desc": "Conecte y gestione cientos de cámaras simultáneamente desde un solo panel de control."
+    },
+    "aiAnalytics": {
+      "title": "Análisis IA",
+      "desc": "Genere información procesable a partir de datos visuales con modelos avanzados de aprendizaje automático."
+    },
+    "privacy": {
+      "title": "Privacidad Primero",
+      "desc": "La arquitectura de computación en el borde mantiene los datos confidenciales en las instalaciones. Cumplimiento total del RGPD."
+    },
+    "api": {
+      "title": "API RESTful",
+      "desc": "Intégrese fácilmente con sus sistemas existentes a través de nuestra API integral."
+    },
+    "cloud": {
+      "title": "Nube y Local",
+      "desc": "Opciones de implementación flexibles — ejecute en la nube, en instalaciones locales o en modo híbrido."
+    }
+  },
+  "tech": {
+    "title": "Stack Tecnológico",
+    "subtitle": "Construido con tecnologías modernas y probadas en batalla",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "aiEngine": "Motor IA",
+    "deployment": "Despliegue"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "description": "Somos una empresa tecnológica con sede en Shenzhen, China, dedicada al avance de la inteligencia artificial y la visión artificial. Nuestra misión es hacer que la tecnología de visión IA sofisticada sea accesible y práctica para empresas de todos los tamaños.",
+    "founded": "Fundada en Shenzhen",
+    "focus": "IA y Visión Artificial",
+    "team": "Equipo de Ingeniería Experto",
+    "global": "Soluciones Globales"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Tiene preguntas? Nos encantaría saber de usted.",
+    "email": "Correo Electrónico",
+    "emailValue": "2212085042@qq.com",
+    "address": "Dirección",
+    "addressValue": "Shenzhen, Guangdong, China",
+    "company": "Empresa",
+    "companyValue": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "namePlaceholder": "Su Nombre",
+    "emailPlaceholder": "Su Correo",
+    "messagePlaceholder": "Su Mensaje",
+    "send": "Enviar Mensaje"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
