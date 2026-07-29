@@ -75,5 +75,25 @@
     "rights": "版权所有。",
     "privacy": "隐私政策",
     "terms": "服务条款"
+  },
+  "downloads": {
+    "title": "下载中心",
+    "subtitle": "获取适用于您平台的 AI-VisionRada 最新版本",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "source": "源代码",
+    "docs": "文档",
+    "version": "版本",
+    "releaseDate": "发布日期",
+    "downloadBtn": "下载",
+    "allReleases": "查看所有版本",
+    "requirements": "系统要求",
+    "winReq": "Windows 10/11 x64, 8GB 内存",
+    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB 内存",
+    "linuxReq": "Ubuntu 20.04+, 8GB 内存, 推荐NVIDIA GPU",
+    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
+    "license": "非商业用途免费。商业使用请联系我们获取企业授权。"
   }
 }

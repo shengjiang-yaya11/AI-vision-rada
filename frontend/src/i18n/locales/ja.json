@@ -75,5 +75,25 @@
     "rights": "無断転載禁止。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約"
+  },
+  "downloads": {
+    "title": "ダウンロード",
+    "subtitle": "お使いのプラットフォームに対応したAI-VisionRadaの最新バージョンを入手",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "source": "ソースコード",
+    "docs": "ドキュメント",
+    "version": "バージョン",
+    "releaseDate": "リリース日",
+    "downloadBtn": "ダウンロード",
+    "allReleases": "すべてのリリースを見る",
+    "requirements": "システム要件",
+    "winReq": "Windows 10/11 x64, 8GB RAM",
+    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB RAM",
+    "linuxReq": "Ubuntu 20.04+, 8GB RAM, NVIDIA GPU推奨",
+    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
+    "license": "非商用は無料。商用利用はライセンスについてお問い合わせください。"
   }
 }

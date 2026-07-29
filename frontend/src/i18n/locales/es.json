@@ -75,5 +75,25 @@
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio"
+  },
+  "downloads": {
+    "title": "Descargas",
+    "subtitle": "Obtenga la última versión de AI-VisionRada para su plataforma",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "source": "Código Fuente",
+    "docs": "Documentación",
+    "version": "Versión",
+    "releaseDate": "Fecha de lanzamiento",
+    "downloadBtn": "Descargar",
+    "allReleases": "Ver todas las versiones",
+    "requirements": "Requisitos del sistema",
+    "winReq": "Windows 10/11 x64, 8GB RAM",
+    "macReq": "macOS 12+ (Apple Silicon/Intel), 8GB RAM",
+    "linuxReq": "Ubuntu 20.04+, 8GB RAM, GPU NVIDIA recomendada",
+    "dockerReq": "Docker 20.10+, NVIDIA Container Toolkit",
+    "license": "Gratis para uso no comercial. Contáctenos para licencias empresariales."
   }
 }
