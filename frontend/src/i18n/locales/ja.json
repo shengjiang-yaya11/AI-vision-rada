@@ -54,7 +54,9 @@
     "title": "お問い合わせ",
     "email": "2212085042@qq.com",
     "location": "中国広東省深圳市",
-    "company": "深圳诺澜一路科技有限公司"
+    "company": "深圳诺澜一路科技有限公司",
+    "phone": "電話",
+    "phoneValue": "16620839283"
   },
   "footer": {
     "rights": "無断転載禁止。"

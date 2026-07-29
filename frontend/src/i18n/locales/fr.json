@@ -54,7 +54,9 @@
     "title": "Contact",
     "email": "2212085042@qq.com",
     "location": "Shenzhen, Guangdong, Chine",
-    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd."
+    "company": "Shenzhen Nuolan Yilu Technology Co., Ltd.",
+    "phone": "Téléphone",
+    "phoneValue": "16620839283"
   },
   "footer": {
     "rights": "Tous droits réservés."
