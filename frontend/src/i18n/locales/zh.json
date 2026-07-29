@@ -60,5 +60,18 @@
   },
   "footer": {
     "rights": "版权所有。"
+  },
+  "download": {
+    "title": "下载",
+    "subtitle": "AI-VisionRada 运行在标准x86硬件上。选择您的平台下载。",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "version": "v1.0.0",
+    "btn": "下载",
+    "dockerCmd": "docker pull",
+    "all": "GitHub 全部版本 →",
+    "nav": "下载"
   }
 }

@@ -60,5 +60,18 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados."
+  },
+  "download": {
+    "title": "Descargar",
+    "subtitle": "AI-VisionRada funciona en hardware x86 estándar. Elija su plataforma.",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "version": "v1.0.0",
+    "btn": "Descargar",
+    "dockerCmd": "docker pull",
+    "all": "Todas las versiones en GitHub →",
+    "nav": "Descargar"
   }
 }

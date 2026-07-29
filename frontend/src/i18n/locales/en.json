@@ -60,5 +60,18 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "download": {
+    "title": "Download",
+    "subtitle": "AI-VisionRada runs on standard x86 hardware. Choose your platform below.",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "version": "v1.0.0",
+    "btn": "Download",
+    "dockerCmd": "docker pull",
+    "all": "All Releases on GitHub →",
+    "nav": "Download"
   }
 }

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
 
-const navLinks = ['product', 'features', 'about', 'contact']
+const navLinks = ['product', 'features', 'download', 'about', 'contact']
 
 export default function Navbar() {
   const { t } = useTranslation()
@@ -13,6 +13,11 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const navLabel = (key) => {
+    if (key === 'download') return t('download.nav')
+    return t(`nav.${key}`)
+  }
 
   return (
     <nav
@@ -33,7 +38,7 @@ export default function Navbar() {
               href={`#${key}`}
               className="text-[13px] text-slate-400 hover:text-[#0f172a] transition-colors font-medium uppercase tracking-wider hidden sm:inline"
             >
-              {t(`nav.${key}`)}
+              {navLabel(key)}
             </a>
           ))}
           <LanguageSwitcher />

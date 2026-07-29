@@ -60,5 +60,18 @@
   },
   "footer": {
     "rights": "無断転載禁止。"
+  },
+  "download": {
+    "title": "ダウンロード",
+    "subtitle": "AI-VisionRadaは標準x86ハードウェアで動作します。プラットフォームを選択してください。",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "docker": "Docker",
+    "version": "v1.0.0",
+    "btn": "ダウンロード",
+    "dockerCmd": "docker pull",
+    "all": "GitHubですべてのリリース →",
+    "nav": "ダウンロード"
   }
 }

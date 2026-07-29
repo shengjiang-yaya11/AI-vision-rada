@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Intro from './components/Intro'
 import HowItWorks from './components/HowItWorks'
 import Compare from './components/Compare'
+import Download from './components/Download'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <HowItWorks />
       <Compare />
+      <Download />
       <About />
       <Contact />
       <Footer />
