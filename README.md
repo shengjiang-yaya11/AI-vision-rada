@@ -6,16 +6,16 @@ Next-generation AI computer vision platform for real-time object detection, faci
 
 ## 🌐 Live Website
 
-**[https://shengjiang-yaya11.github.io/AI-vision-rada/](https://shengjiang-yaya11.github.io/AI-vision-rada/)**
+**[https://stellular-puppy-468601.netlify.app](https://stellular-puppy-468601.netlify.app)**
 
-> 🚧 Cloudflare Pages deployment pending — connect via [Cloudflare Dashboard](https://dash.cloudflare.com/pages)
+Also available on GitHub Pages: [https://shengjiang-yaya11.github.io/AI-vision-rada/](https://shengjiang-yaya11.github.io/AI-vision-rada/)
 
 ## 🚀 Tech Stack
 
 - **Frontend:** React 19 + Vite + Tailwind CSS + i18next
 - **Backend:** FastAPI + Python 3.11+
 - **AI Engine:** PyTorch, TensorRT, OpenCV, YOLOv8
-- **Deployment:** GitHub Pages, Cloudflare Pages (pending), Docker
+- **Deployment:** Netlify, GitHub Pages, Docker
 
 ## 🌍 Supported Languages
 
@@ -48,28 +48,15 @@ npm run dev
 
 ## 🚢 Deployment
 
-### GitHub Pages (Auto-deployed)
-Push to `main` branch, then run:
+### Netlify (Auto-linked)
 ```bash
-cd frontend && npm run build
-# Copy dist/ to gh-pages branch and push
-```
-
-### Cloudflare Pages (Recommended)
-```bash
-# 1. Login
-wrangler login
-
-# 2. Deploy
 cd frontend
-wrangler pages deploy dist --project-name=ai-vision-rada
+npm run build
+netlify deploy --prod --dir=dist
 ```
 
-Or connect via Dashboard:
-1. Go to [Cloudflare Pages](https://dash.cloudflare.com/pages)
-2. Connect GitHub: `shengjiang-yaya11/AI-vision-rada`
-3. Build command: `cd frontend && npm install && npm run build`
-4. Output directory: `frontend/dist`
+### GitHub Pages
+Push to `main`, then deploy the `frontend/dist` contents to the `gh-pages` branch.
 
 ## 📧 Contact
 
